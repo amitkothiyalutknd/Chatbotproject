@@ -2,6 +2,8 @@ Instructionn as hints to create Chatboat having features currencyConversion.
 1.Create an agent in google dialogflow's account.
 2.Create in intent "currencyConverter" & train it by provide him bunch of possible quries
   which may be often ask by the user randomly related to currency conversion.
+  *Enable webhook and also provide global url to receive a POST request in the form of the
+   response to a user query.
 3.Download Telegram and Create the Bot having name "AceKingBot".
   *The name of telegram's bot is must be same as name of dialogflow's agent.
 4.Get a free url with API's key available in any online plateform.
